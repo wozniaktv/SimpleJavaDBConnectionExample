@@ -11,13 +11,13 @@ public class Main {
 
         System.out.println("Hello world!");
 
-        List<String> prima_persona = db_API.getIndex(1);
+        List<String> first_person = db_API.getIndex(1);
 
-        if(prima_persona!=null){
-            System.out.println("Il nome della prima persona è: "+prima_persona.get(0));
+        if(first_person!=null){
+            System.out.println("Name of the first person is: "+first_person.get(0));
         }
 
-        System.out.println("Stampo tutto il DB:");
+        System.out.println("Printing all DB:");
         db_API.printAllPersons();
 
 
