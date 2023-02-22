@@ -1,6 +1,5 @@
 package org.example;
 
-import java.awt.image.DataBuffer;
 import java.util.List;
 
 public class Main {
@@ -10,6 +9,8 @@ public class Main {
 
 
         System.out.println("Hello world!");
+
+        db_API.insertPerson("Mike","Rugees");
 
         List<String> first_person = db_API.getIndex(1);
 
