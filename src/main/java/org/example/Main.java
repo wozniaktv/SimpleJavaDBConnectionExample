@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Hello world!");
 
-        db_API.insertPerson("Mike","Rugees");
+        db_API.insertPerson("Mike","Rouges");
 
         List<String> first_person = db_API.getIndex(1);
 
